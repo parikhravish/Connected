@@ -7,5 +7,11 @@ a text file.
 Note: Nothing is case sensitive as city names are supposed to be unique.
       If cityname1 == cityname2, we assume they are connected without reading the file.
 
-Usage: java Connected filename cityname1 cityname2
+Setup:
 
+$ git clone https://github.com/parikhravish/Connected.git
+$ cd Connected/src
+$ javac Connected.java
+$ java Connected CitiesTest.txt "Boston" "Hartford"
+
+Usage: java Connected <<filename>> <<cityname1>> <<cityname2>>
