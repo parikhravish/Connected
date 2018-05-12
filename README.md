@@ -14,4 +14,4 @@ $ cd Connected/src
 $ javac Connected.java
 $ java Connected CitiesTest.txt "Boston" "Hartford"
 
-Usage: java Connected <<filename>> <<cityname1>> <<cityname2>>
+Usage: java Connected <<filename>> <<cityname1>> <<cityname2>> 
